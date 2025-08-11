@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-block: 8px;
+    background-color: #a7e28e7c;
+}
+
+.galeria {
+    display: columns;
+    columns: 5;
+}
+
+.galeria img {
+    width: 100%;
+    padding-block: 8px;
+}
