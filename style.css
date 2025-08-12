@@ -11,10 +11,28 @@ body {
 
 .galeria {
     display: columns;
-    columns: 5;
+    columns: 3;
 }
 
 .galeria img {
     width: 100%;
     padding-block: 8px;
+}
+
+.divImg {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.teste {
+    display: flex;
+    z-index: 99;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+    height: 30px;
+    opacity: 0.5;
+    background-color: black;
+    margin-top: -39px;
+    justify-content: center;
 }
